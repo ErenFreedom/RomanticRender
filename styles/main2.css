@@ -1,0 +1,106 @@
+/* Specific styles for page2.html */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap');
+
+body {
+    background-image: url('../images/pawel-czerwinski-Qiy4hr18aGs-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    position: relative;
+}
+
+/* Heading styles */
+.artistic-heading h1 {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    margin-top: 50px;
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.artistic-heading span {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.6em;
+}
+
+/* Zigzag styles for artworks */
+.left {
+    align-self: flex-start;
+    width: 100%;
+}
+
+.right {
+    align-self: flex-end;
+    width: 100%;
+    text-align: right;
+}
+
+.art {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.art p {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 1.7em;
+    width: 75%;
+    margin: 20px auto;
+    font-family: 'Dancing Script', cursive;
+    color: #d81e5b;
+}
+
+.art img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.art img:hover {
+    transform: scale(1.05);
+}
+
+/* Navigation button styles */
+.navigation {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.navigation button {
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.5em;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.navigation button:hover {
+    background-color: #d35400;
+}
+
+/* Artwork display flex layout */
+.artwork {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}

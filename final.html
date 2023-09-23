@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/final.css">
+    <title>Proposal Page</title>
+</head>
+<body>
+
+<button id="revealButton" onclick="revealSong()">One more time</button>
+
+<div class="song-container" style="display: none;">
+    <div id="playMessage" style="font-size: 24px; color: #8B0000; margin-bottom: 15px;">🎶 Press play and feel the vibe! 🎵</div>
+    <iframe id="spotifyFrame" style="border-radius:12px" src="https://open.spotify.com/embed/track/0tgVpDi06FyKpA1z0VMD4v?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <button id="finalReveal" onclick="showFinalMessage()" style="display: none;">Click one last time Darling</button>
+
+
+</div>
+
+<div class="heart-container" style="display: none;">
+    <div class="heart">
+        <p>In every beat of my heart, in every fleeting thought,<br>
+        in every silent moment, there's a whisper, softly echoing...<br>
+        'Will you be mine, forever and always?'</p>
+    </div>
+</div>
+
+<script src="scripts/main.js"></script>
+
+</body>
+</html>

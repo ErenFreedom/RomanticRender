@@ -1,0 +1,99 @@
+/* Reset and basic styling */
+/* For page1.html */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #FFD1DC; /* Light Pink */
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/sean-oulashin-KMn4VEeEPR8-unsplash.jpg');
+    background-size: cover;  /* Ensures the image covers the full viewport */
+    background-repeat: no-repeat;  /* The image won't repeat */
+    background-position: center center;  /* Center the background image */
+    background-attachment: fixed;  
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.welcome h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700; /* Bold weight */
+    font-size: 3.5em; /* Adjust the size as you see fit */
+    margin: 0;
+    line-height: 1.2; /* Adjust line height for better spacing between lines */
+}
+
+.welcome h1 span {
+    display: block;  /* To force the subtitle onto a new line */
+    font-weight: 400; /* Regular weight */
+    font-size: 2.5em; /* Adjust the size for the subtitle */
+}
+/* Quotes styling */
+
+.quotes {
+    margin: 40px 0;
+}
+
+.quote {
+    width: 80%; 
+    max-width: 350px; /* Slightly reduced max-width */
+    height: 350px;  /* Adjusted the height */
+    border-radius: 50%; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    overflow: visible; 
+    margin-left: auto;  /* Starts from the right by default */
+    margin-right: auto; /* Starts from the right by default */
+}
+
+.quote blockquote {
+    font-family: 'Pacifico', cursive;
+    font-size: 2em; /* Slightly reduced font size */
+    margin: 0;
+    width: 80%;
+}
+
+.quote.left {
+    margin-left: 0;  /* Stick to the left side */
+    margin-right: auto;
+}
+
+.quote.right {
+    margin-right: 0; /* Stick to the right side */
+    margin-left: auto;
+}
+
+
+/* Navigation styling */
+
+.navigation {
+    text-align: center; /* Center the button horizontally */
+    margin: 30px 0; /* Some space above and below the button */
+}
+
+.navigation button {
+    font-size: 1.5em;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7); 
+    color: #333;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    font-weight: bold; /* Making the text bold */
+}
+
+.navigation button:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
